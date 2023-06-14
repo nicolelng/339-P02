@@ -1,0 +1,15 @@
+https://unsplash.com/photos/IGfIGP5ONV0
+https://unsplash.com/photos/hbNOsm2eM1M
+https://unsplash.com/photos/74yRjQ-cvNI
+https://unsplash.com/photos/zqiE16q_Ju0
+https://unsplash.com/photos/Gdi8wDpQeg4
+https://unsplash.com/photos/fIGQshb_Bh0
+https://iconmonstr.com/menu-1-svg/
+https://iconmonstr.com/eat-7-svg/
+https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
+https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+https://www.30secondsofcode.org/css/s/hover-underline-animation/
+https://developer.mozilla.org/en-US/docs/Web/CSS/display
+https://stackoverflow.com/questions/46160482/style-just-the-first-h1-in-the-document
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+https://gomakethings.com/how-to-animate-scrolling-to-anchor-links-with-one-line-of-css/
