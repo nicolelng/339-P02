@@ -861,4 +861,9 @@ footer .footer-wrapper {
     margin-bottom: 4rem;
 }
 
+/* Events page */
 
+.date {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
