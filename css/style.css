@@ -793,12 +793,7 @@ footer {
     }
 
     .promotion-window {
-        border-radius: 1rem;
-        width: 70vw;
-        height: auto;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        width: 30vw;
     }
 
     .promotion-window-details {
