@@ -1,0 +1,42 @@
+/* checkout styling */
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout section {
+    margin: 0;
+    width: 100%;
+}
+
+.checkout section h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.checkout section h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.checkout section input {
+    width: 100%;
+    color: var(--dark-gray);
+    padding: .8rem;
+    border-radius: 10px;
+    border: 1px solid var(--light-green);
+}
+
+.checkout section p.form-duo-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout section p.form-duo-row span {
+    width: 47%;
+}
+
+.checkout-confirm {
+    text-align: right;
+}
