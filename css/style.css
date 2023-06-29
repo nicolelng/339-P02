@@ -1,10 +1,10 @@
-/* * {
+* {
     box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
-} */
+}
 
 /* Contact Form Styling */
 
@@ -177,6 +177,12 @@ h1 {
     color: var(--dark-green);
 }
 
+.alt-button:hover{
+    margin-top: 1rem;
+    background-color: var(--light-beige);
+    color: var(--dark-green);
+    text-decoration: underline;
+}
 /* header */
 header {
     position: fixed;
