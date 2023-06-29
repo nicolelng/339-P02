@@ -1,10 +1,10 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 
 html {
     scroll-behavior: smooth;
-}
+} */
 
 /* Contact Form Styling */
 
@@ -33,16 +33,6 @@ html {
     height: 10rem;
 }
 
-/* fonts */
-@font-face {
-    font-family: "Open Sauce Sans";
-    src: url("../fonts/OpenSauceSans-Regular.ttf");
-}
-
-@font-face {
-    font-family: "Satoshi";
-    src: url("../fonts/Satoshi-Variable.ttf");
-}
 
 /* variables */
 :root {
