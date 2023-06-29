@@ -15,17 +15,22 @@ html {
     margin-right: 5rem;
     background-color: #EDF1DF;
     text-align: center;
-    display: block;
 }
 
+
+.contactForm input[type=text]{
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-sizing: border-box;
+    border: 1px solid;
+
+}
 
 #contactMessage{
     width: 45%;
     height: 10rem;
-    box-sizing: border-box;
-    padding-top: 1rem;
-    padding-left: 1rem;
-
 }
 
 /* fonts */
