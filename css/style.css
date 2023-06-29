@@ -6,6 +6,28 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Contact Form Styling */
+
+.contactForm{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: #EDF1DF;
+    text-align: center;
+    display: block;
+}
+
+
+#contactMessage{
+    width: 45%;
+    height: 10rem;
+    box-sizing: border-box;
+    padding-top: 1rem;
+    padding-left: 1rem;
+
+}
+
 /* fonts */
 @font-face {
     font-family: "Open Sauce Sans";
