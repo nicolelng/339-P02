@@ -3,369 +3,402 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>P02: FreshFit Style Guide</title>
+    <title>FreshFit | Style Guide</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- header -->
-    <header>
-        <div id="header-overlay"></div>
-        <div class="header-wrapper">
-            <h1 id="title">FreshFit Style Guide</h1>
-            <p>FreshFit delivers weekly, ready-to-eat, organic meal plans.</p>
+    <!-- promotion window -->
+    <div class="promotion-overlay"></div>
+    <div class="promotion-window">
+        <img src="images/food2.jpg" alt="Tasty food">
+        <div class="promotion-window-details">
+            <h1>Sign up for 20% off your first order</h1>
+            <p>Enter your email address for a code</p>
+            <input type="text" name="" id="">
+            <button class="promotion-subscribe btn">Subscribe</button>
+            <svg class="promotion-close" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round"
+                stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="m12.002 2.005c5.518 0 9.998 4.48 9.998 9.997 0 5.518-4.48 9.998-9.998 9.998-5.517 0-9.997-4.48-9.997-9.998 0-5.517 4.48-9.997 9.997-9.997zm0 8.933-2.721-2.722c-.146-.146-.339-.219-.531-.219-.404 0-.75.324-.75.749 0 .193.073.384.219.531l2.722 2.722-2.728 2.728c-.147.147-.22.34-.22.531 0 .427.35.75.751.75.192 0 .384-.073.53-.219l2.728-2.728 2.729 2.728c.146.146.338.219.53.219.401 0 .75-.323.75-.75 0-.191-.073-.384-.22-.531l-2.727-2.728 2.717-2.717c.146-.147.219-.338.219-.531 0-.425-.346-.75-.75-.75-.192 0-.385.073-.531.22z"
+                    fill-rule="nonzero" />
+            </svg>
         </div>
-    </header>
-
-    <!-- body content -->
-    <div id="wrapper">
-
-        <!-- navigation -->
-        <aside id="main-nav">
-            <h1>Brand Components</h1>
-            <ul>
-                <li><a href="#brand-components-fonts">Fonts</a></li>
-                <li><a href="#brand-components-colour-palette">Colour Palette</a></li>
-            </ul>
-
-            <h1>Interactive Elements</h1>
-            <ul>
-                <li><a href="#interactive-elements-in-text-link">In-Text Link</a></li>
-                <li><a href="#interactive-elements-navigation-link">Navigation Link</a></li>
-                <li><a href="#interactive-elements-submit-button">Submit/Reset Buttons</a></li>
-                <li><a href="#interactive-elements-text-input">Text Input</a></li>
-                <li><a href="#interactive-elements-radio-button">Radio Button Input</a></li>
-                <li><a href="#interactive-elements-image-as-link">Image As Link</a></li>
-            </ul>
-
-            <h1>Text Styling</h1>
-            <ul>
-                <li><a href="#text-styling">Headings</a></li>
-                <li><a href="#text-styling">Paragraphs</a></li>
-                <li><a href="#text-styling">Numbered Lists</a></li>
-            </ul>
-
-            <h1>Combined Elements</h1>
-            <ul>
-                <li><a href="#combined-elements-main-nav">Navigation</a></li>
-                <li><a href="#combined-elements-payment-form">Payment Form</a></li>
-                <li><a href="#combined-elements-checkout-cart">Checkout Cart</a></li>
-            </ul>
-        </aside>
-
-        <!-- main content area -->
-        <main>
-
-            <!-- brand components -->
-            <section>
-                <h1 class="section-title">Brand Components</h1>
-
-                <h2 id="#brand-components-fonts" class="section-subtitle">Fonts</h2>
-                <h1 id="heading-font-example">Satoshi</h1>
-                <p>Satoshi is a Swiss style sans serif font family. The font was obtained from <a
-                        href="https://befonts.com/satoshi-font-family.html">BEFonts.</a></p>
-                <h1 id="body-font-example">Open Sauce</h1>
-                <p>Satoshi is a modern grotesk sans serif font family. The font was obtained from <a
-                        href="https://befonts.com/open-sauce-font-family.html">BEFonts.</a></p>
-
-                <h2 id="#brand-components-colour-palette" class="section-subtitle">Colour Palette</h2>
-                <div class="colour-palette">
-                    <figure>
-                        <h1 id="cp-body-text">#3A3A3A</h1>
-                        <p>Used for body text.</p>
-                    </figure>
-                    <figure>
-                        <h1 id="cp-heading-text">#2D3D1B</h1>
-                        <p>Used for headings.</p>
-                    </figure>
-                    <figure>
-                        <h1 id="cp-accent">#606C38</h1>
-                        <p>Used for accents.</p>
-                    </figure>
-                    <figure>
-                        <h1 id="cp-bg">#EDF1DF</h1>
-                        <p>Used for light backgrounds.</p>
-                    </figure>
-                </div>
-
-            </section>
-
-            <!-- interactive elements -->
-            <section>
-                <h1 class="section-title">Interactive Elements</h1>
-
-                <h2 id="interactive-elements-in-text-link" class="section-subtitle">In-Text Link</h2>
-                <p>This is a <a href="#">link</a>.</p>
-
-                <h2 id="interactive-elements-navigation-link" class="section-subtitle">Navigation Link</h2>
-                <a href="#">Shop</a>
-                <p></p>
-                <a href="#" id="mobile-nav-link">Shop</a>
-
-                <h2 id="interactive-elements-submit-button" class="section-subtitle">Submit and Reset Button for Forms</h2>
-                <button class="btn">Reset</button>
-                <button class="btn">Submit</button>
-
-                <h2 id="interactive-elements-text-input" class="section-subtitle">Text Input Field and Label</h2>
-                <label for="name">Your Name</label><br>
-                <input type="text" id="name" name="name">
-
-                <h2 id="interactive-elements-radio-button" class="section-subtitle">Radio Button Input Field and Label</h2>
-                <input type="radio" id="newsletter-true" name="newsletter-options">
-                <label for="newsletter-option-1">Yes, sign me up for the newsletter.</label>
-                <br><br>
-                <input type="radio" id="newsletter-false" name="newsletter-options">
-                <label for="newsletter-option-2">No, do not sign me up for the newsletter.</label>
-
-                <h2 id="interactive-elements-image-as-link" class="section-subtitle">Image as Link</h2>
-                <a href="#" id="imageaslink">
-                    <img src="images/food1.jpg" class="img-link" alt="A plate of food">
-                </a>
-
-            </section>
-
-            <!-- text styling -->
-            <section>
-                <h1 id="text-styling" class="section-title">Text Styling</h1>
-
-                <div class="headings-examples">
-                    <figure>
-                        <h1>Heading 1</h1>
-                        <p>Satoshi &middot; Bold &middot; 48px / 32px</p>
-                    </figure>
-
-                    <figure>
-                        <h2>Heading 2</h2>
-                        <p>Open Sauce Sans &middot; Semi-Bold &middot; 32px / 24px</p>
-                    </figure>
-
-                    <figure>
-                        <p>Paragraph Text</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus veritatis inventore vel
-                            dignissimos.</p>
-                        <p>Open Sauce Sans &middot; Regular &middot; 16px</p>
-                        <small>Note: Numbered lists have the same styling as paragraph text.</small>
-                    </figure>
-                </div>
-
-            </section>
-
-            <!-- combined elements -->
-
-            <section>
-                <h1 class="section-title">Combined Elements</h1>
-
-                <h2 id="combined-elements-main-nav" class="section-subtitle">Main Navigation</h2>
-                <nav>
-                    <a href="#" id="nav-title">
-                        <h1><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M7.008 22.914c-4.134-1.896-7.008-6.072-7.008-10.914 0-6.623 5.377-12 12-12s12 5.377 12 12c0 4.439-2.415 8.318-6.002 10.394.002-5.398.004-12.809-.002-13.685-.003-.412-.3-.709-.673-.709-1.297 0-3.215 5.17-3.883 11 1.079-.003 2.056 0 2.056 0v4.482c-1.107.337-2.28.518-3.496.518-.852 0-1.683-.089-2.484-.258v-6.096c0-.585.36-.765 1.151-1.391.594-.47 1.016-1.212.935-1.963-.231-2.121-.793-6.292-.793-6.292h-.458v5h-.835l-.166-5h-.469l-.201 5h-.836l-.144-5h-.506l-.186 5h-.836v-5h-.5s-.509 4.198-.718 6.312c-.074.741.326 1.469.907 1.935.787.63 1.147.819 1.147 1.395v5.272z"/></svg>&nbsp;FreshFit</h1>
-                    </a>
-
-                    <svg id="nav-btn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
-                    </svg>
-
-                    <ul id="nav-links">
-                        <li><a href="index.html">Shop</a></li>
-                        <li><a href="index.html">About</a></li>
-                        <li><a href="index.html">Contact</a></li>
-                    </ul>
-                </nav>
-
-                <h2 class="section-subtitle">Product Listing</h2>
-                <div class="products">
-                    <figure>
-                        <img src="images/food1.jpg" alt="Food">
-                        <p></p>
-                        <figcaption>
-                            <a href="#">
-                                <h1>Product 1</h1>
-                            </a>
-                            <p>$19.00</p>
-                            <button class="btn">Add to Cart</button>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/food6.jpg" alt="Food">
-                        <p></p>
-                        <figcaption>
-                            <a href="#">
-                                <h1>Product 2</h1>
-                            </a>
-                            <p>$13.00</p>
-                            <button class="btn">Add to Cart</button>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/food2.jpg" alt="Food">
-                        <p></p>
-                        <figcaption>
-                            <a href="#">
-                                <h1>Product 3</h1>
-                            </a>
-                            <p>$10.00</p>
-                            <button class="btn">Add to Cart</button>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/food3.jpg" alt="Food">
-                        <p></p>
-                        <figcaption>
-                            <a href="#">
-                                <h1>Product 4</h1>
-                            </a>
-                            <p>$18.00</p>
-                            <button class="btn">Add to Cart</button>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/food4.jpg" alt="Food">
-                        <p></p>
-                        <figcaption>
-                            <a href="#">
-                                <h1>Product 5</h1>
-                            </a>
-                            <p>$24.00</p>
-                            <button class="btn">Add to Cart</button>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/food5.jpg" alt="Food">
-                        <p></p>
-                        <figcaption>
-                            <a href="#">
-                                <h1>Product 6</h1>
-                            </a>
-                            <p>$31.00</p>
-                            <button class="btn">Add to Cart</button>
-                        </figcaption>
-                    </figure>
-                </div>
-
-            </section>
-
-            <h2 id="combined-elements-payment-form" class="section-subtitle">Payment Form</h2>
-            <form>
-                <section>
-                    <h2>Billing Info</h1>
-                        <p>
-                            <label for="fullname">Full Name</label>
-                            <input type="text" id="fullname" name="fullname">
-                        </p>
-                        <p>
-                            <label for="baddress">Full Name</label>
-                            <input type="text" id="baddress" name="baddress">
-                        </p>
-                        <p class="form-duo-row">
-                            <span>
-                                <label for="city">City</label>
-                                <input type="text" id="city" name="city">
-                            </span>
-                            <span>
-                                <label for="zip">Zip Code</label>
-                                <input type="text" id="zip" name="zip">
-                            </span>
-                        </p>
-                        <p>
-                            <label for="country">Country</label>
-                            <p></p>
-                            <select class="dropdown" id="country" name="country">
-                                <option value="canada">Canada</option>
-                                <option value="us">United States</option>
-                            </select>
-                        </p>
-                </section>
-                <section>
-                    <h2>Payment Info</h1>
-                        <p>
-                            <label for="cardholdername">Cardholder's Name</label>
-                            <input type="text" id="cardholdername" name="cardholdername">
-                        </p>
-                        <p>
-                            <label for="cardnumber">Card Number</label>
-                            <input type="text" id="cardnumber" name="cardnumber">
-                        </p>
-                        <p class="form-duo-row">
-                            <span>
-                                <label for="cardexpmonth">Exp. Month</label>
-                                <input type="text" id="cardexpmonth" name="cardexpmonth">
-                            </span>
-                            <span>
-                                <label for="cardexpyear">Exp. Year</label>
-                                <input type="text" id="cardexpyear" name="cardexpyear">
-                            </span>
-                        </p>
-                        <p>
-                            <label for="cardcvc">CVC</label>
-                            <input type="text" id="cardcvc" name="cardcvc">
-                        </p>
-                </section>
-            </form>
-            <p id="checkout-btn">
-                <button class="btn">Confirm</button>
-            </p>
-
-            <h2 id="combined-elements-checkout-cart" class="section-subtitle">Checkout Cart</h2>
-            <section class="cart">
-                <ul>
-                    <li>
-                        <figure class="cart-item-info">
-                            <img src="images/food2.jpg" alt="Food">
-                            <figcaption>
-                                <h1>Product 1</h1>
-                                <p>$14.00</p>
-                            </figcaption>
-                        </figure>
-                        <span class="cart-item-qt">
-                            <button class="btn">-</button>
-                            <strong>1</strong>
-                            <button class="btn">+</button>
-                        </span>
-                    </li>
-                    <li>
-                        <figure class="cart-item-info">
-                            <img src="images/food6.jpg" alt="Food">
-                            <figcaption>
-                                <h1>Product 6</h1>
-                                <p>$12.00</p>
-                            </figcaption>
-                        </figure>
-                        <span class="cart-item-qt">
-                            <button class="btn">-</button>
-                            <strong>1</strong>
-                            <button class="btn">+</button>
-                        </span>
-                    </li>
-                </ul>
-                <aside>
-                    <p>TOTAL</p>
-                    <p id="cart-summary-total">$26.00</p>
-                    <p>Delivery instructions</p>
-                    <textarea name="" id="" rows="5"></textarea>
-                    <button class="btn">Checkout</button>
-                </aside>
-            </section>
-
-        </main>
 
     </div>
 
+    <!-- header -->
+    <header>
+
+        <!-- promotion bar -->
+        <div class="promotion-bar">
+            <p>Sign up for our newsletter to get 20% off
+            <p>
+        </div>
+
+        <!-- navigation bar -->
+        <nav>
+
+            <!-- site title -->
+            <h1 class="site-title"><a href="index.html">FreshFit</a></h1>
+
+            <!-- navigation links -->
+            <ul class="nav-links">
+
+                <span class="nav-links-wrapper">
+                    <li><a class="un" href="shop.html">Shop</a></li>
+                    <li><a class="un" href="how-it-works.html">How It Works</a></li>
+                    <li><a class="un" href="faq.html">FAQ</a></li>
+                    <li><a class="un" href="company.html">Company</a></li>
+                    <li><a class="un" href="contact.html">Contact</a></li>
+                    <li><a class="un" href="styleguide.html">Style Guide</a></li>
+                </span>
+
+                <ul class="nav-socials">
+                    <li><a href="https://twitter.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z" />
+                            </svg></a></li>
+                    <li><a href="https://instagram.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M15.233 5.488c-.843-.038-1.097-.046-3.233-.046s-2.389.008-3.232.046c-2.17.099-3.181 1.127-3.279 3.279-.039.844-.048 1.097-.048 3.233s.009 2.389.047 3.233c.099 2.148 1.106 3.18 3.279 3.279.843.038 1.097.047 3.233.047 2.137 0 2.39-.008 3.233-.046 2.17-.099 3.18-1.129 3.279-3.279.038-.844.046-1.097.046-3.233s-.008-2.389-.046-3.232c-.099-2.153-1.111-3.182-3.279-3.281zm-3.233 10.62c-2.269 0-4.108-1.839-4.108-4.108 0-2.269 1.84-4.108 4.108-4.108s4.108 1.839 4.108 4.108c0 2.269-1.839 4.108-4.108 4.108zm4.271-7.418c-.53 0-.96-.43-.96-.96s.43-.96.96-.96.96.43.96.96-.43.96-.96.96zm-1.604 3.31c0 1.473-1.194 2.667-2.667 2.667s-2.667-1.194-2.667-2.667c0-1.473 1.194-2.667 2.667-2.667s2.667 1.194 2.667 2.667zm4.333-12h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm.952 15.298c-.132 2.909-1.751 4.521-4.653 4.654-.854.039-1.126.048-3.299.048s-2.444-.009-3.298-.048c-2.908-.133-4.52-1.748-4.654-4.654-.039-.853-.048-1.125-.048-3.298 0-2.172.009-2.445.048-3.298.134-2.908 1.748-4.521 4.654-4.653.854-.04 1.125-.049 3.298-.049s2.445.009 3.299.048c2.908.133 4.523 1.751 4.653 4.653.039.854.048 1.127.048 3.299 0 2.173-.009 2.445-.048 3.298z" />
+                            </svg></a></li>
+                    <li><a href="https://facebook.com"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z" />
+                            </svg></a></li>
+                </ul>
+            </ul>
+
+            <!-- cart and mobile menu -->
+            <div class="mobile-menu-wrapper">
+
+                <!-- cart link -->
+                <span id="nav-cart-wrapper">
+                    <a class="nav-cart-label" href="cart.html">CART</a>
+                    <a class="nav-cart" href="cart.html">
+                        <svg class="nav-cart-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M6 23.73l-3-2.122v-14.2l3 1.359v14.963zm2-14.855v15.125l13-1.954v-15.046l-13 1.875zm5.963-7.875c-2.097 0-3.958 2.005-3.962 4.266l-.001 1.683c0 .305.273.54.575.494.244-.037.425-.247.425-.494v-1.681c.003-1.71 1.416-3.268 2.963-3.268.537 0 1.016.195 1.384.564.422.423.654 1.035.653 1.727v1.747c0 .305.273.54.575.494.243-.037.423-.246.423-.492l.002-1.749c.002-1.904-1.32-3.291-3.037-3.291zm-6.39 5.995c.245-.037.427-.247.427-.495v-2.232c.002-1.71 1.416-3.268 2.963-3.268l.162.015c.366-.283.765-.513 1.188-.683-.405-.207-.858-.332-1.35-.332-2.096 0-3.958 2.005-3.962 4.266v2.235c0 .306.272.538.572.494z" />
+                        </svg>
+                        <p class="nav-cart-quantity">0</p>
+                    </a>
+                </span>
+
+                <!-- mobile nav buttons -->
+                <svg class="nav-btn-menu" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                    <path d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z" fill="#1a1a1a" />
+                    <path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z" />
+                </svg>
+
+                <svg class="nav-btn-x" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round"
+                    stroke-miterlimit="1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#1A1A1A"
+                        d="m12 10.93 5.719-5.72c.146-.146.339-.219.531-.219.404 0 .75.324.75.749 0 .193-.073.385-.219.532l-5.72 5.719 5.719 5.719c.147.147.22.339.22.531 0 .427-.349.75-.75.75-.192 0-.385-.073-.531-.219l-5.719-5.719-5.719 5.719c-.146.146-.339.219-.531.219-.401 0-.75-.323-.75-.75 0-.192.073-.384.22-.531l5.719-5.719-5.72-5.719c-.146-.147-.219-.339-.219-.532 0-.425.346-.749.75-.749.192 0 .385.073.531.219z" />
+                </svg>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- hero image -->
+    <div class="hero hero-short">
+        <div class="hero-bg"
+            style="background-image: linear-gradient(to right, rgba(46, 56, 44, 0.6), rgba(46, 56, 44, 0.65)), url('images/hermes-rivera-Ww8eQWjMJWk-unsplash.jpg')">
+        </div>
+        <div class="hero-content">
+            <h1>Style Guide</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+    </div>
+
+    <!-- main content -->
+    <main>
+        <!-- brand components -->
+        <section class="px">
+            <h1>Brand Components</h1>
+
+            <h2 id="#brand-components-fonts" class="section-subtitle">Fonts</h2>
+            <h1 id="heading-font-example">Satoshi</h1>
+            <p>Satoshi is a Swiss style sans serif font family. The font was obtained from <a
+                    href="https://befonts.com/satoshi-font-family.html">BEFonts.</a></p>
+            <h1 id="body-font-example">Open Sauce</h1>
+            <p>Satoshi is a modern grotesk sans serif font family. The font was obtained from <a
+                    href="https://befonts.com/open-sauce-font-family.html">BEFonts.</a></p>
+
+            <h2 id="#brand-components-colour-palette" class="section-subtitle">Colour Palette</h2>
+            <div class="colour-palette">
+                <figure>
+                    <h1 id="cp-body-text">#3A3A3A</h1>
+                    <p>Used for body text.</p>
+                </figure>
+                <figure>
+                    <h1 id="cp-heading-text">#2D3D1B</h1>
+                    <p>Used for headings.</p>
+                </figure>
+                <figure>
+                    <h1 id="cp-accent">#606C38</h1>
+                    <p>Used for accents.</p>
+                </figure>
+                <figure>
+                    <h1 id="cp-bg">#EDF1DF</h1>
+                    <p>Used for light backgrounds.</p>
+                </figure>
+            </div>
+
+        </section>
+
+        <!-- interactive elements -->
+        <section class="px">
+            <h1 class="section-title">Interactive Elements</h1>
+
+            <h2 id="interactive-elements-in-text-link" class="section-subtitle">In-Text Link</h2>
+            <p>This is a <a href="#">link</a>.</p>
+
+            <h2 id="interactive-elements-navigation-link" class="section-subtitle">Navigation Link</h2>
+            <a href="#">Shop</a>
+            <p></p>
+            <a href="#" id="mobile-nav-link">Shop</a>
+
+            <h2 id="interactive-elements-submit-button" class="section-subtitle">Submit and Reset Button for Forms
+            </h2>
+            <button class="btn">Reset</button>
+            <button class="btn">Submit</button>
+
+            <h2 id="interactive-elements-text-input" class="section-subtitle">Text Input Field and Label</h2>
+            <label for="name">Your Name</label><br>
+            <input type="text" id="name" name="name">
+
+            <h2 id="interactive-elements-radio-button" class="section-subtitle">Radio Button Input Field and Label
+            </h2>
+            <input type="radio" id="newsletter-true" name="newsletter-options">
+            <label for="newsletter-option-1">Yes, sign me up for the newsletter.</label>
+            <br><br>
+            <input type="radio" id="newsletter-false" name="newsletter-options">
+            <label for="newsletter-option-2">No, do not sign me up for the newsletter.</label>
+
+            <h1>Image as Link</h1>
+            <a href="#">
+                <img width="100%" src="images/food1.jpg" class="img-link" alt="A plate of food">
+            </a>
+
+        </section>
+
+        <!-- text styling -->
+        <section class="px">
+            <h1 id="text-styling" class="section-title">Text Styling</h1>
+
+            <div class="headings-examples">
+                <figure>
+                    <h1>Heading 1</h1>
+                    <p>Satoshi &middot; Bold &middot; 48px / 32px</p>
+                </figure>
+
+                <figure>
+                    <h2>Heading 2</h2>
+                    <p>Open Sauce Sans &middot; Semi-Bold &middot; 32px / 24px</p>
+                </figure>
+
+                <figure>
+                    <p>Paragraph Text</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus veritatis inventore vel
+                        dignissimos.</p>
+                    <p>Open Sauce Sans &middot; Regular &middot; 16px</p>
+                    <small>Note: Numbered lists have the same styling as paragraph text.</small>
+                </figure>
+            </div>
+
+        </section>
+
+        <!-- combined elements -->
+
+        <section>
+            <h1 class="px">Combined Elements</h1>
+
+            <h1 class="px">Product Listing</h2>
+            <div class="products px">
+                <figure>
+                    <img src="images/food1.jpg" alt="Food">
+                    <p></p>
+                    <figcaption>
+                        <a href="#">
+                            <h1>Product 1</h1>
+                        </a>
+                        <p>$19.00</p>
+                        <button class="btn">Add to Cart</button>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/food6.jpg" alt="Food">
+                    <p></p>
+                    <figcaption>
+                        <a href="#">
+                            <h1>Product 2</h1>
+                        </a>
+                        <p>$13.00</p>
+                        <button class="btn">Add to Cart</button>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/food2.jpg" alt="Food">
+                    <p></p>
+                    <figcaption>
+                        <a href="#">
+                            <h1>Product 3</h1>
+                        </a>
+                        <p>$10.00</p>
+                        <button class="btn">Add to Cart</button>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/food3.jpg" alt="Food">
+                    <p></p>
+                    <figcaption>
+                        <a href="#">
+                            <h1>Product 4</h1>
+                        </a>
+                        <p>$18.00</p>
+                        <button class="btn">Add to Cart</button>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/food4.jpg" alt="Food">
+                    <p></p>
+                    <figcaption>
+                        <a href="#">
+                            <h1>Product 5</h1>
+                        </a>
+                        <p>$24.00</p>
+                        <button class="btn">Add to Cart</button>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/food5.jpg" alt="Food">
+                    <p></p>
+                    <figcaption>
+                        <a href="#">
+                            <h1>Product 6</h1>
+                        </a>
+                        <p>$31.00</p>
+                        <button class="btn">Add to Cart</button>
+                    </figcaption>
+                </figure>
+            </div>
+
+        </section>
+
+        <h1 class="px">Payment Form</h2>
+        <form class="checkout px">
+            <section>
+                <h2>Billing Info</h1>
+                    <p>
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </p>
+                    <p>
+                        <label for="baddress">Full Name</label>
+                        <input type="text" id="baddress" name="baddress">
+                    </p>
+                    <p class="form-duo-row">
+                        <span>
+                            <label for="city">City</label>
+                            <input type="text" id="city" name="city">
+                        </span>
+                        <span>
+                            <label for="zip">Zip Code</label>
+                            <input type="text" id="zip" name="zip">
+                        </span>
+                    </p>
+                    <p>
+                        <label for="country">Country</label>
+                    <p></p>
+                    <select class="dropdown" id="country" name="country">
+                        <option value="canada">Canada</option>
+                        <option value="us">United States</option>
+                    </select>
+                    </p>
+            </section>
+            <section>
+                <h2>Payment Info</h1>
+                    <p>
+                        <label for="cardholdername">Cardholder's Name</label>
+                        <input type="text" id="cardholdername" name="cardholdername">
+                    </p>
+                    <p>
+                        <label for="cardnumber">Card Number</label>
+                        <input type="text" id="cardnumber" name="cardnumber">
+                    </p>
+                    <p class="form-duo-row">
+                        <span>
+                            <label for="cardexpmonth">Exp. Month</label>
+                            <input type="text" id="cardexpmonth" name="cardexpmonth">
+                        </span>
+                        <span>
+                            <label for="cardexpyear">Exp. Year</label>
+                            <input type="text" id="cardexpyear" name="cardexpyear">
+                        </span>
+                    </p>
+                    <p>
+                        <label for="cardcvc">CVC</label>
+                        <input type="text" id="cardcvc" name="cardcvc">
+                    </p>
+            </section>
+        </form>
+
+        <h1 class="px">Checkout Cart</h2>
+        <section class="cart px">
+            <ul>
+                <li>
+                    <figure class="cart-item-info">
+                        <img src="images/food2.jpg" alt="Food">
+                        <figcaption>
+                            <h1>Product 1</h1>
+                            <p>$14.00</p>
+                        </figcaption>
+                    </figure>
+                    <span class="cart-item-qt">
+                        <button class="btn">-</button>
+                        <strong>1</strong>
+                        <button class="btn">+</button>
+                    </span>
+                </li>
+                <li>
+                    <figure class="cart-item-info">
+                        <img src="images/food6.jpg" alt="Food">
+                        <figcaption>
+                            <h1>Product 6</h1>
+                            <p>$12.00</p>
+                        </figcaption>
+                    </figure>
+                    <span class="cart-item-qt">
+                        <button class="btn">-</button>
+                        <strong>1</strong>
+                        <button class="btn">+</button>
+                    </span>
+                </li>
+            </ul>
+            <aside>
+                <p>TOTAL</p>
+                <p id="cart-summary-total">$26.00</p>
+                <p>Delivery instructions</p>
+                <textarea name="" id="" rows="5"></textarea>
+                <button class="btn">Checkout</button>
+            </aside>
+        </section>
+    </main>
+
     <!-- footer -->
     <footer>
-        <div class="footer-wrapper">
-            <p>IAT339</p>
-            <p>View citations <a href="citations.txt">here</a>.</p>
-        </div>
+        <p>&copy; FreshFit 2023</p>
+        <a href="citations.txt" class="un">Citations</a>
     </footer>
-
-    <!-- back to top -->
-    <a id="back-to-top" href="#wrapper">
-        <button class="btn">Back to top</button>
-    </a>
 
     <!-- scripts -->
     <script src="js/scripts.js"></script>

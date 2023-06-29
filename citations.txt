@@ -4,8 +4,15 @@ https://unsplash.com/photos/74yRjQ-cvNI
 https://unsplash.com/photos/zqiE16q_Ju0
 https://unsplash.com/photos/Gdi8wDpQeg4
 https://unsplash.com/photos/fIGQshb_Bh0
+
 https://iconmonstr.com/menu-1-svg/
-https://iconmonstr.com/eat-7-svg/
+https://iconmonstr.com/shopping-bag-7-svg/
+https://iconmonstr.com/x-mark-lined-svg/
+https://iconmonstr.com/twitter-3-svg/
+https://iconmonstr.com/instagram-13-svg/
+https://iconmonstr.com/facebook-3-svg/
+https://iconmonstr.com/x-mark-circle-filled-svg/
+
 https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
 https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
 https://www.30secondsofcode.org/css/s/hover-underline-animation/
@@ -13,4 +20,6 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/display
 https://stackoverflow.com/questions/46160482/style-just-the-first-h1-in-the-document
 https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
 https://gomakethings.com/how-to-animate-scrolling-to-anchor-links-with-one-line-of-css/
-https://uxwing.com/food-restaurant-icon
+https://www.geeksforgeeks.org/how-to-disable-scrolling-temporarily-using-javascript/
+
+https://unsplash.com/photos/Ww8eQWjMJWk
