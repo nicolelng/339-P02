@@ -1,0 +1,10 @@
+/* fonts */
+@font-face {
+    font-family: "Open Sauce Sans";
+    src: url("../fonts/OpenSauceSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url("../fonts/Satoshi-Variable.ttf");
+}
