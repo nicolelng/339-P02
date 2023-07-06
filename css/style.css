@@ -176,6 +176,24 @@ header {
     font-weight: bold;
 }
 
+.newsletter{
+    text-align: center;
+    padding:2rem;
+    background-color: #EDF1DF;
+}
+
+.newsletter-sub input[type=text]{
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-sizing: border-box;
+    border: 1px solid;
+    padding-left: 1rem;
+
+}
+
+
 /* promotion window
 .promotion-overlay {
     display: none;
