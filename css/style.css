@@ -94,7 +94,7 @@ h1 {
     padding-right: var(--margin-mobile);
 }
 
-.faq-qa{
+.faq-qa {
     max-width: 60rem;
 }
 .spacer-top {
@@ -152,10 +152,6 @@ h1 {
 .dark-btn:hover {
     background-color: var(--light-beige);
     color: var(--dark-green);
-}
-
-.alt-button {
-    margin-top: 1rem;
 }
 
 /* header */
