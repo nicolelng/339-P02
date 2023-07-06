@@ -68,17 +68,17 @@
         display: block;
     }
 
-    .nav-links-wrapper {
+    .nav-links {
         display: flex;
         flex-direction: row;
     }
 
-    .nav-links-wrapper li {
+    .nav-links li {
         margin-right: 2rem;
         font-weight: 600;
     }
 
-    .nav-links-wrapper li:last-of-type {
+    .nav-links li:last-of-type {
         margin-right: 0;
     }
 
