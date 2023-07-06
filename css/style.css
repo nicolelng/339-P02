@@ -193,6 +193,9 @@ header {
 
 }
 
+.company-page{
+    max-width:70rem;
+}
 
 /* promotion window
 .promotion-overlay {
