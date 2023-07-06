@@ -162,6 +162,11 @@ header {
     width: 100vw;
 }
 
+.subtitle{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
 /* promotion window
 .promotion-overlay {
     display: none;
