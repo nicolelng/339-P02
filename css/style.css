@@ -89,6 +89,10 @@ h1 {
     margin-bottom: 5vh;
 }
 
+.margin-bottom-none {
+    margin-bottom: 0;
+}
+
 .px {
     padding-left: var(--margin-mobile);
     padding-right: var(--margin-mobile);
@@ -172,7 +176,7 @@ header {
     font-weight: bold;
 }
 
-.newsletter{
+.newsletter {
     text-align: center;
     padding:2rem;
     background-color: #EDF1DF;
@@ -517,10 +521,6 @@ main section {
     margin-bottom: 10vh;
 }
 
-main section:last-of-type {
-    margin-bottom: 5vh;
-}
-
 main section h1 {
     font-size: 24px;
     letter-spacing: -.48px;
@@ -813,7 +813,6 @@ main section p {
 
 /* footer */
 footer {
-    margin-top: 5vh;
     border-top: 1px solid var(--dark-green);
     padding: var(--margin-mobile);
     text-align: center;
