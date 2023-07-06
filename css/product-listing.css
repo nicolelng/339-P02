@@ -20,11 +20,20 @@
     width: 100%;
     height: 40vh;
     transition: opacity .2s ease-in-out;
+    position: relative;
 }
 
-.products img:hover {
-    opacity: .85;
+
+
+
+.products img:hover{
+    transform: scale(0.8);
 }
+
+.product-container:hover .middle{
+    opacity: 1;
+}
+
 
 .products>figure a {
     display: inline-block;
