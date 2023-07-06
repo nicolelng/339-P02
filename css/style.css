@@ -197,6 +197,17 @@ header {
     max-width:70rem;
 }
 
+.event-details{
+    margin-bottom: 0;
+}
+
+.event-address{
+    font-style: italic;
+}
+
+.event-address:hover {
+    text-decoration: underline;
+}
 /* promotion window
 .promotion-overlay {
     display: none;
