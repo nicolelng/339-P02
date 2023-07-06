@@ -168,6 +168,11 @@ header {
     margin-bottom: 1rem;
 }
 
+.last-FAQ-message{
+    font-family: "Satoshi", sans-serif;
+    font-weight: bold;
+}
+
 /* promotion window
 .promotion-overlay {
     display: none;
