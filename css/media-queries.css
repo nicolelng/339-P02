@@ -162,6 +162,15 @@
         margin-bottom: 2vh;
     }
 
+    /* faq */
+    .accordion {
+        font-size: 1.3rem;
+    }
+
+    .accordion:last-of-type {
+        border-bottom: 1px solid var(--dark-gray);
+    }
+
     /* contact form */
     .contactForm .form-duo-row {
         flex-direction: row;
@@ -345,6 +354,39 @@
 
     .video-home {
         padding: 0 var(--margin-desktop);
+    }
+
+    /* faq */
+
+    .faq-split {
+        display: flex;
+    }
+
+    .faq-title {
+        width: 50%;
+    }
+
+    .faq-content {
+        width: 50%;
+    }
+    
+    .accordion {
+        font-size: 1.6rem;
+    }
+
+    .faq-message {
+        margin-top: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .faq-message p {
+        width: 50%;
+        line-height: 1.4;
+        font-size: 1rem;
+        padding: 0;
+        font-family: var(--heading-font);
+        font-weight: bold;
     }
 
     /* contact form */

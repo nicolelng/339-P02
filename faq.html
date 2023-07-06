@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/promotion.css">
+    <link rel="stylesheet" href="css/faq.css">
     <link rel="stylesheet" href="css/media-queries.css">
 </head>
 
@@ -92,7 +93,9 @@
 
     <!-- hero image -->
     <div class="hero hero-short">
-        <div class="hero-bg" style="background-image: linear-gradient(to right, rgba(46, 56, 44, 0.6), rgba(46, 56, 44, 0.65)), url('images/brooke-lark-W9OKrxBqiZA-unsplash.jpg')"></div>
+        <div class="hero-bg"
+            style="background-image: linear-gradient(to right, rgba(46, 56, 44, 0.6), rgba(46, 56, 44, 0.65)), url('images/brooke-lark-W9OKrxBqiZA-unsplash.jpg')">
+        </div>
         <div class="hero-content">
             <h1>FAQ</h1>
             <p>Welcome to the FreshFit FAQ page!</p>
@@ -101,7 +104,8 @@
 
     <!-- main content -->
     <main>
-        <section class="px">
+        
+        <!-- <section class="px">
             <h1>Frequently asked questions</h1>
             <br>
 
@@ -179,8 +183,50 @@
                 phone, email, or social media, and we'll be happy to assist you. Your satisfaction is our priority at FreshFit, 
                 and we're committed to providing you with delicious meals and exceptional service.
             </p>
+        </section> -->
+
+        <section class="faq-split">
+            <div class="faq-title px">
+                <h1>Frequently asked</h1>
+            </div>
+            <div class="faq-content">
+                <button class="accordion"><span>What type of meals does FreshFit
+                        offer?</span><span><strong>&plus;</strong></span></button>
+                <div class="accordion-inner">
+                    <p>FreshFit offers a wide variety of meals to suit various dietary preferences and lifestyles.
+                        Our menu includes options for keto, paleo, vegetarian, and more. Each meal is carefully crafted
+                        by our chefs to provide a balanced combination of proteins, healthy fats, and complex
+                        carbohydrates.</p>
+                </div>
+
+                <button class="accordion"><span>How often are meals delivered?</span><span><strong>&plus;</strong></span></button>
+                <div class="accordion-inner">
+                    <p>We offer flexible delivery options to accommodate your schedule. You can choose to have meals 
+                        delivered weekly, bi-weekly, or customize your delivery frequency based on your preferences.</p>
+                </div>
+
+                <button class="accordion"><span>How long do the meals stay fresh?</span><span><strong>&plus;</strong></span></button>
+                <div class="accordion-inner">
+                    <p>Our meals are prepared fresh and packaged with care. When refrigerated, they typically stay 
+                        fresh for 4-6 days from the delivery date. For longer storage, you can freeze the meals and enjoy 
+                        them at a later time.</p>
+                </div>
+                <button class="accordion"><span>How do I manage my account and orders?</span><span><strong>&plus;</strong></span></button>
+                <div class="accordion-inner">
+                    <p>Managing your account and orders is easy. Simply log in to your FreshFit account to access your 
+                        order history, update your preferences, manage your delivery schedule, and make any necessary changes.</p>
+                </div>
+                <button class="accordion"><span>What if I have allergies or specific dietary restrictions?</span><span><strong>&plus;</strong></span></button>
+                <div class="accordion-inner">
+                    <p>We take allergies and dietary restrictions seriously. While we strive to accommodate various dietary 
+                        needs, please note that our meals are prepared in a facility where allergens may be present. If you have 
+                        severe allergies or strict dietary restrictions, we recommend consulting with a healthcare professional 
+                        before placing an order.</p>
+                </div>
+            </div>
         </section>
 
+        
     </main>
 
     <!-- footer -->
@@ -191,6 +237,7 @@
 
     <!-- scripts -->
     <script src="js/scripts.js"></script>
+    <script src="js/accordion.js"></script>
 </body>
 
 </html>

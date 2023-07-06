@@ -99,9 +99,6 @@ h1 {
     padding-right: var(--margin-mobile);
 }
 
-.faq-qa {
-    max-width: 60rem;
-}
 .spacer-top {
     height: 13vh;
 }
@@ -167,14 +164,9 @@ header {
     width: 100vw;
 }
 
-.subtitle{
+.subtitle {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
-}
-
-.last-FAQ-message{
-    font-family: "Satoshi", sans-serif;
-    font-weight: bold;
 }
 
 .newsletter {
