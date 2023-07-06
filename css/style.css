@@ -208,6 +208,11 @@ header {
 .event-address:hover {
     text-decoration: underline;
 }
+
+.while-here{
+    text-align: center;
+    padding-bottom: 5rem;
+}
 /* promotion window
 .promotion-overlay {
     display: none;
