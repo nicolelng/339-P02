@@ -1,0 +1,72 @@
+main.style-guide > section {
+    margin-top: 0;
+    margin-bottom: 5vh;
+}
+
+main.style-guide > section:first-of-type {
+    margin-top: 5vh;
+}
+
+main.style-guide section > h2 {
+    margin-bottom: 2vh;
+    font-size: 1.25rem;
+}
+
+main.style-guide .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+main.style-guide label {
+    margin-bottom: 1vh;
+}
+
+main.style-guide .form-group input[type=text] {
+    border-radius: 5px;
+    border: 1px solid var(--light-green);
+    padding: 1rem;
+    color: var(--dark-gray);
+}
+
+main.style-guide .form-group input[type=text]:focus {
+    outline: none;
+    border: 1px solid var(--dark-green);
+}
+
+.img-link {
+    width: 100%;
+}
+
+.colour-palette figure {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2vh;
+}
+
+.colour-palette figure div {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 1vh;
+}
+
+.colour-palette figure p {
+    margin-bottom: 0;
+}
+
+.colour-palette .dark-gray {
+    background-color: var(--dark-gray);
+}
+
+.colour-palette .dark-green {
+    background-color: var(--dark-green);
+}
+
+.colour-palette .light-beige {
+    background-color: var(--light-beige);
+    border: 1px solid var(--light-green);
+}
+
+.colour-palette .light-green {
+    background-color: var(--light-green);
+}

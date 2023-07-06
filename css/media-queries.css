@@ -398,6 +398,23 @@
         padding: 1rem 2.5rem;
     }
 
+    /* style guide */
+    main.style-guide .form-group input[type=text] {
+        width: 20%;
+    }
+
+    .img-link {
+        width: 20%;
+    }
+
+    .colour-palette {
+        display: flex;
+    }
+
+    .colour-palette figure {
+        margin-right: 1vh;
+    }
+
     /* footer */
     footer {
         padding: var(--margin-desktop);

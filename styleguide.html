@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/promotion.css">
+    <link rel="stylesheet" href="css/style-guide.css">
     <link rel="stylesheet" href="css/contact-form.css">
     <link rel="stylesheet" href="css/product-listing.css">
     <link rel="stylesheet" href="css/cart.css">
@@ -42,7 +43,8 @@
 
         <!-- promotion bar -->
         <div class="promotion-bar">
-            <p>Sign up for our newsletter to get 20% off<p>
+            <p>Sign up for our newsletter to get 20% off
+            <p>
         </div>
 
         <!-- navigation bar -->
@@ -104,81 +106,89 @@
     </div>
 
     <!-- main content -->
-    <main>
+    <main class="style-guide">
+
         <!-- brand components -->
         <section class="px">
             <h1>Brand Components</h1>
 
-            <h2 id="#brand-components-fonts" class="section-subtitle">Fonts</h2>
-            <h1 id="heading-font-example">Satoshi</h1>
+            <h2>Fonts</h2>
+            <h1>Satoshi</h1>
             <p>Satoshi is a Swiss style sans serif font family. The font was obtained from <a
                     href="https://befonts.com/satoshi-font-family.html">BEFonts.</a></p>
-            <h1 id="body-font-example">Open Sauce</h1>
+            <h1>Open Sauce</h1>
             <p>Satoshi is a modern grotesk sans serif font family. The font was obtained from <a
                     href="https://befonts.com/open-sauce-font-family.html">BEFonts.</a></p>
 
-            <h2 id="#brand-components-colour-palette" class="section-subtitle">Colour Palette</h2>
+            <br>
+            <h2>Colour Palette</h2>
             <div class="colour-palette">
                 <figure>
-                    <h1 id="cp-body-text">#3A3A3A</h1>
-                    <p>Used for body text.</p>
+                    <div class="dark-gray"></div>
+                    <strong><p>Dark Gray #1A1A1A</p></strong>
+                    <p>For body text.</p>
                 </figure>
                 <figure>
-                    <h1 id="cp-heading-text">#2D3D1B</h1>
-                    <p>Used for headings.</p>
+                    <div class="dark-green"></div>
+                    <strong><p>Dark Green #2E382C</p></strong>
+                    <p>For borders and buttons.</p>
                 </figure>
                 <figure>
-                    <h1 id="cp-accent">#606C38</h1>
-                    <p>Used for accents.</p>
+                    <div class="light-green"></div>
+                    <strong><p>Light Green #2E382C62</p></strong>
+                    <p>For borders and accents.</p>
                 </figure>
                 <figure>
-                    <h1 id="cp-bg">#EDF1DF</h1>
-                    <p>Used for light backgrounds.</p>
+                    <div class="light-beige"></div>
+                    <strong><p>Light Beige #F6F5ED</p></strong>
+                    <p>For body backgrounds.</p>
                 </figure>
             </div>
-
         </section>
 
         <!-- interactive elements -->
         <section class="px">
-            <h1 class="section-title">Interactive Elements</h1>
+            <h1>Interactive Elements</h1>
 
-            <h2 id="interactive-elements-in-text-link" class="section-subtitle">In-Text Link</h2>
+            <h2>In-Text Link</h2>
             <p>This is a <a href="#">link</a>.</p>
-
-            <h2 id="interactive-elements-navigation-link" class="section-subtitle">Navigation Link</h2>
+            <br>
+            <h2>Navigation Link</h2>
             <a href="shop.html" id="mobile-nav-link">Shop</a>
-            <br>
-            <br>
-            <h2 id="interactive-elements-submit-button" class="section-subtitle">Submit and Reset Button for Forms
-            </h2>
+            <br><br><br>
+            <h2 class="section-subtitle">Submit and Reset Button for Forms</h2>
             <button class="btn">Reset</button>
-            <button class="btn">Submit</button>
+            <button class="btn dark-btn">Submit</button>
+            <br><br><br>
+            <h2>Text Input Field and Label</h2>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name">
+            </div>
             <br>
             <br>
-            <h2 id="interactive-elements-text-input" class="section-subtitle">Text Input Field and Label</h2>
-            <label for="name">Your Name</label><br>
-            <input type="text" id="name" name="name">
             <br>
-            <br>
-            <h2 id="interactive-elements-radio-button" class="section-subtitle">Radio Button Input Field and Label
+            <h2>Radio Button Input Field and Label
             </h2>
             <input type="radio" id="newsletter-true" name="newsletter-options">
             <label id="newsletter-option-1">Yes, sign me up for the newsletter.</label>
-            <br><br>
+            <br>
+            <br>
             <input type="radio" id="newsletter-false" name="newsletter-options">
             <label id="newsletter-option-2">No, do not sign me up for the newsletter.</label>
-
+            <br>
+            <br>
+            <br>
             <h1>Image as Link</h1>
             <a href="#">
-                <img width="720" src="images/food1.jpg" class="img-link" alt="A plate of food">
+                <img class="img-link" src="images/food1.jpg" alt="A plate of food">
             </a>
 
         </section>
 
         <!-- text styling -->
         <section class="px">
-            <h1 id="text-styling" class="section-title">Text Styling</h1>
+            <h1>Text Styling</h1>
 
             <div class="headings-examples">
                 <figure>
@@ -192,7 +202,7 @@
                 </figure>
 
                 <figure>
-                    <p>Paragraph Text</p>
+                    <p><strong>Paragraph Text</strong></p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus veritatis inventore vel
                         dignissimos.</p>
                     <p>Open Sauce Sans &middot; Regular &middot; 16px</p>
@@ -207,69 +217,94 @@
         <section>
             <h1 class="px">Combined Elements</h1>
 
-            <h1 class="px">Product Listing</h1>
-            <div class="products px">
-                <figure>
-                    <img src="images/food1.jpg" alt="Food">
-                    <figcaption>
-                        <a href="#">
-                            <h1>Product 1</h1>
-                        </a>
-                        <p>$19.00</p>
-                        <button class="btn">Add to Cart</button>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="images/food6.jpg" alt="Food">
-                    <figcaption>
-                        <a href="#">
-                            <h1>Product 2</h1>
-                        </a>
-                        <p>$13.00</p>
-                        <button class="btn">Add to Cart</button>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="images/food2.jpg" alt="Food">
-                    <figcaption>
-                        <a href="#">
-                            <h1>Product 3</h1>
-                        </a>
-                        <p>$10.00</p>
-                        <button class="btn">Add to Cart</button>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="images/food3.jpg" alt="Food">
-                    <figcaption>
-                        <a href="#">
-                            <h1>Product 4</h1>
-                        </a>
-                        <p>$18.00</p>
-                        <button class="btn">Add to Cart</button>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="images/food4.jpg" alt="Food">
-                    <figcaption>
-                        <a href="#">
-                            <h1>Product 5</h1>
-                        </a>
-                        <p>$24.00</p>
-                        <button class="btn">Add to Cart</button>
-                    </figcaption>
-                </figure>
-                <figure>
-                    <img src="images/food5.jpg" alt="Food">
-                    <figcaption>
-                        <a href="#">
-                            <h1>Product 6</h1>
-                        </a>
-                        <p>$31.00</p>
-                        <button class="btn">Add to Cart</button>
-                    </figcaption>
-                </figure>
-            </div>
+            <h2 class="px">Product Listing</h1>
+                <section class="px">
+                    <div class="products">
+                        <figure>
+                            <a class="product-thumbnail" href="meals/garden-salad.html">
+                                <img src="images/food1.jpg" alt="Food">
+                            </a>
+                            <figcaption>
+                                <a href="meals/garden-salad.html">
+                                    <h1>Garden Salad</h1>
+                                </a>
+                                <p>$19.00</p>
+                                <button class="btn dark-btn">Add to Cart</button>
+                                <a href="meals/garden-salad.html" class="btn alt-button">More Info</a>
+                            </figcaption>
+                        </figure>
+
+                        <figure>
+                            <a class="product-thumbnail" href="meals/lamb-dinner.html">
+                                <img src="images/food6.jpg" alt="Food">
+                            </a>
+                            <figcaption>
+                                <a href="meals/lamb-dinner.html">
+                                    <h1>Rack of Lamb Dinner</h1>
+                                </a>
+                                <p>$13.00</p>
+                                <button class="btn dark-btn">Add to Cart</button>
+                                <a href="meals/lamb-dinner.htm" class="btn alt-button">More Info</a>
+                            </figcaption>
+                        </figure>
+
+                        <figure>
+                            <a href="meals/veggie-pizza.html" class="product-thumbnail">
+                                <img src="images/food2.jpg" alt="Food">
+                            </a>
+                            <figcaption>
+                                <a href="meals/veggie-pizza.html">
+                                    <h1>Veggie Pizza</h1>
+                                </a>
+                                <p>$10.00</p>
+                                <button class="btn dark-btn">Add to Cart</button>
+                                <a href="meals/veggie-pizza.html" class="btn alt-button">More Info</a>
+                            </figcaption>
+                        </figure>
+
+                        <figure>
+                            <a href="meals/stir-fry.html" class="product-thumbnail">
+                                <img src="images/food3.jpg" alt="Food">
+                            </a>
+                            <figcaption>
+                                <a href="meals/stir-fry.html">
+                                    <h1>Seafood Stir-fry</h1>
+                                </a>
+                                <p>$18.00</p>
+                                <button class="btn dark-btn">Add to Cart</button>
+                                <a href="meals/stir-fry.html" class="btn alt-button">More Info</a>
+                            </figcaption>
+                        </figure>
+
+                        <figure>
+                            <a href="meals/gazpacho.html" class="product-thumbnail">
+                                <img src="images/food4.jpg" alt="Food">
+                            </a>
+                            <figcaption>
+                                <a href="meals/gazpacho.html">
+                                    <h1>Gazpacho</h1>
+                                </a>
+                                <p>$24.00</p>
+                                <button class="btn dark-btn">Add to Cart</button>
+                                <a href="meals/gazpacho.html" class="btn alt-button">More Info</a>
+                            </figcaption>
+                        </figure>
+
+                        <figure>
+                            <a href="meals/steak.html" class="product-thumbnail">
+                                <img src="images/food5.jpg" alt="Food">
+                            </a>
+                            <figcaption>
+                                <a href="meals/steak.html">
+                                    <h1>Steak and Ravioli</h1>
+                                </a>
+                                <p>$31.00</p>
+                                <button class="btn dark-btn">Add to Cart</button>
+                                <a href="meals/steak.html" class="btn alt-button">More Info</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </section>
 
         </section>
 
@@ -277,100 +312,103 @@
         <form class="checkout px">
             <section>
                 <h2>Billing Info</h2>
-                    <p>
-                        <label for="fullname">Full Name</label>
-                        <input type="text" id="fullname" name="fullname">
-                    </p>
-                    <p>
-                        <label for="baddress">Full Name</label>
-                        <input type="text" id="baddress" name="baddress">
-                    </p>
-                    <p class="form-duo-row">
-                        <span>
-                            <label for="city">City</label>
-                            <input type="text" id="city" name="city">
-                        </span>
-                        <span>
-                            <label for="zip">Zip Code</label>
-                            <input type="text" id="zip" name="zip">
-                        </span>
-                    </p>
-                    <p>
-                        <label for="country">Country</label>
-                   </p>
-                    <select class="dropdown" id="country" name="country">
-                        <option value="canada">Canada</option>
-                        <option value="us">United States</option>
-                    </select>
-                   
+                <p>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                </p>
+                <p>
+                    <label for="baddress">Full Name</label>
+                    <input type="text" id="baddress" name="baddress">
+                </p>
+                <p class="form-duo-row">
+                    <span>
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city">
+                    </span>
+                    <span>
+                        <label for="zip">Zip Code</label>
+                        <input type="text" id="zip" name="zip">
+                    </span>
+                </p>
+                <p>
+                    <label for="country">Country</label>
+                </p>
+                <select class="dropdown" id="country" name="country">
+                    <option value="canada">Canada</option>
+                    <option value="us">United States</option>
+                </select>
+
             </section>
             <section>
                 <h2>Payment Info</h2>
-                    <p>
-                        <label for="cardholdername">Cardholder's Name</label>
-                        <input type="text" id="cardholdername" name="cardholdername">
-                    </p>
-                    <p>
-                        <label for="cardnumber">Card Number</label>
-                        <input type="text" id="cardnumber" name="cardnumber">
-                    </p>
-                    <p class="form-duo-row">
-                        <span>
-                            <label for="cardexpmonth">Exp. Month</label>
-                            <input type="text" id="cardexpmonth" name="cardexpmonth">
-                        </span>
-                        <span>
-                            <label for="cardexpyear">Exp. Year</label>
-                            <input type="text" id="cardexpyear" name="cardexpyear">
-                        </span>
-                    </p>
-                    <p>
-                        <label for="cardcvc">CVC</label>
-                        <input type="text" id="cardcvc" name="cardcvc">
-                    </p>
+                <p>
+                    <label for="cardholdername">Cardholder's Name</label>
+                    <input type="text" id="cardholdername" name="cardholdername">
+                </p>
+                <p>
+                    <label for="cardnumber">Card Number</label>
+                    <input type="text" id="cardnumber" name="cardnumber">
+                </p>
+                <p class="form-duo-row">
+                    <span>
+                        <label for="cardexpmonth">Exp. Month</label>
+                        <input type="text" id="cardexpmonth" name="cardexpmonth">
+                    </span>
+                    <span>
+                        <label for="cardexpyear">Exp. Year</label>
+                        <input type="text" id="cardexpyear" name="cardexpyear">
+                    </span>
+                </p>
+                <p>
+                    <label for="cardcvc">CVC</label>
+                    <input type="text" id="cardcvc" name="cardcvc">
+                </p>
             </section>
         </form>
 
-        <h1 class="px">Checkout Cart</h1>
-        <section class="cart px">
-            <ul>
-                <li>
-                    <figure class="cart-item-info">
-                        <img src="images/food2.jpg" alt="Food">
-                        <figcaption>
-                            <h1>Product 1</h1>
-                            <p>$14.00</p>
-                        </figcaption>
-                    </figure>
-                    <span class="cart-item-qt">
-                        <button class="btn">-</button>
-                        <strong>1</strong>
-                        <button class="btn">+</button>
-                    </span>
-                </li>
-                <li>
-                    <figure class="cart-item-info">
-                        <img src="images/food6.jpg" alt="Food">
-                        <figcaption>
-                            <h1>Product 6</h1>
-                            <p>$12.00</p>
-                        </figcaption>
-                    </figure>
-                    <span class="cart-item-qt">
-                        <button class="btn">-</button>
-                        <strong>1</strong>
-                        <button class="btn">+</button>
-                    </span>
-                </li>
-            </ul>
-            <aside>
-                <p>TOTAL</p>
-                <p id="cart-summary-total">$26.00</p>
-                <p>Delivery instructions</p>
-                <textarea name="delivery-int"  rows="5"></textarea>
-                <button class="btn">Checkout</button>
-            </aside>
+        <section class="px">
+            <h1>Checkout Cart</h1>
+            <section class="cart">
+                <ul>
+                    <li>
+                        <figure class="cart-item-info">
+                            <img src="images/food2.jpg" alt="Food">
+                            <figcaption>
+                                <h1>Product 1</h1>
+                                <p>$14.00</p>
+                            </figcaption>
+                        </figure>
+                        <span class="cart-item-qt">
+                            <button class="btn">-</button>
+                            <strong>1</strong>
+                            <button class="btn">+</button>
+                        </span>
+                    </li>
+                    <li>
+                        <figure class="cart-item-info">
+                            <img src="images/food6.jpg" alt="Food">
+                            <figcaption>
+                                <h1>Product 6</h1>
+                                <p>$12.00</p>
+                            </figcaption>
+                        </figure>
+                        <span class="cart-item-qt">
+                            <button class="btn">-</button>
+                            <strong>1</strong>
+                            <button class="btn">+</button>
+                        </span>
+                    </li>
+                </ul>
+                <aside>
+                    <p>TOTAL</p>
+                    <p id="cart-summary-total">$26.00</p>
+                    <p>Delivery instructions</p>
+                    <textarea name="delivery-int" rows="5"></textarea>
+                    <button class="btn">Checkout</button>
+                </aside>
+            </section>
         </section>
+
     </main>
 
     <!-- footer -->
