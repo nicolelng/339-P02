@@ -329,6 +329,11 @@
         padding: 0 var(--margin-desktop);
     }
 
+    /* product listing (multiple) */
+    .products .product-thumbnail {
+        height: 50vh;
+    }
+
     /* product details */
     .product-container {
         padding: var(--margin-desktop);
