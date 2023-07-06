@@ -3,7 +3,7 @@
 .contactForm {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: #EDF1DF;
+    background-color: var(--very-light-green);
     text-align: center;
     margin-bottom: 0;
     width: 100%;

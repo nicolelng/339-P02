@@ -180,7 +180,7 @@ header {
 .newsletter {
     text-align: center;
     padding:2rem;
-    background-color: #EDF1DF;
+    background-color: var(--very-light-green);
 }
 
 .newsletter-sub input[type=text]{
