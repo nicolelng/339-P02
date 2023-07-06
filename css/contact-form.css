@@ -1,39 +1,62 @@
 /* Contact Form Styling */
 
-.contactForm{
+.contactForm {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
     background-color: #EDF1DF;
     text-align: center;
+    margin-bottom: 0;
+    width: 100%;
 }
 
 
 .contactForm input[type=text]{
-    border-radius: 10px;
-    box-sizing: border-box;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    box-sizing: border-box;
-    border: 1px solid;
+    border-radius: 5px;
+    padding: 1rem;
+    border: 1px solid var(--light-green);
 
 }
 
-textarea{
-    padding:1rem;
+.contactForm h2 {
+    margin-bottom: 2vh;
 }
 
-#contactMessage{
+.contactForm label {
+    margin-bottom: .75vh;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid var(--light-green);
+}
+
+textarea:focus, textarea:active {
+    outline: none;
+    border: 1px solid var(--dark-green);
+}
+
+#contactMessage {
     width: 45%;
     height: 10rem;
 }
 
-.contactForm section p.form-duo-row {
+.contactForm .form-duo-row {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
-.thanks-message{
+.contactForm .form-duo-row span {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vh; 
+}
+
+.thanks-message {
     text-align: center;
 }
