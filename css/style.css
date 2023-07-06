@@ -94,6 +94,9 @@ h1 {
     padding-right: var(--margin-mobile);
 }
 
+.faq-qa{
+    max-width: 60rem;
+}
 .spacer-top {
     height: 13vh;
 }
