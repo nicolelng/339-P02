@@ -398,13 +398,22 @@
         padding: 1rem 2.5rem;
     }
 
+    /* company: newsletter */
+    .newsletter h3 {
+        font-size: 1.75rem;
+    }
+
+    .newsletter-sub input[type=text]{
+        width: 25%;
+    }
+
     /* style guide */
     main.style-guide .form-group input[type=text] {
-        width: 20%;
+        width: 25%;
     }
 
     .img-link {
-        width: 20%;
+        width: 40%;
     }
 
     .colour-palette {
