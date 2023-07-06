@@ -287,10 +287,10 @@ nav {
     font-size: 1.25rem;
 }
 
-/* .mobile-menu-wrapper {
+.mobile-menu-wrapper {
     display: flex;
     align-items: center;
-} */
+}
 
 .nav-links {
     display: none;
