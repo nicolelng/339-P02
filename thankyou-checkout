@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FreshFit | Checkout</title>
+    <title>FreshFit | Contact</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/promotion.css">
-    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="css/contact-form.css">
     <link rel="stylesheet" href="css/media-queries.css">
+    
 </head>
 
 <body>
@@ -91,79 +92,36 @@
 
     </header>
 
+    <!-- hero image -->
+    <div class="hero hero-short">
+        <div class="hero-bg" style="background-image: linear-gradient(to right, rgba(46, 56, 44, 0.6), rgba(46, 56, 44, 0.65)), url('images/brooke-lark-wMzx2nBdeng-unsplash.jpg')"></div>
+        <div class="hero-content">
+            <h1>Thank You for Shopping with Us!</h1>
+            <p>Order Again Soon!</p>
+        </div>
+    </div>
+
     <!-- main content -->
     <main>
-        <div class="spacer-top"></div>
-
-        <section class="px margin-bottom">
-            <h1>Checkout</h1>
+       
+        <section class="thanks-message">
+            <h2>
+                Below is your order number and a confirmation email should be set to you shortly.
+            </h2>
+            <p>Web Order: #12345</p>
+        </section>
+        
+        <br>
+        <br>
+        <section class="while-here">
+            <h3>Feel Free to Check Out the rest of our site while you are still here!</h3>
+            <a class="dark-btn btn" href="shop.html">Browse other Products</a>
+            <a class="dark-btn btn" href="company.html">Learn more About Us!</a>
+            <a class="dark-btn btn" href="index.html">Go Back to Homepage</a>
         </section>
 
-        <form class="checkout px">
-            <section>
-                <h2>Billing Info</h1>
-                    <p>
-                        <label for="fullname">Full Name</label>
-                        <input type="text" id="fullname" name="fullname">
-                    </p>
-                    <p>
-                        <label for="baddress">Address</label>
-                        <input type="text" id="baddress" name="baddress">
-                    </p>
-                    <p class="form-duo-row">
-                        <span>
-                            <label for="city">City</label>
-                            <input type="text" id="city" name="city">
-                        </span>
-                        <span>
-                            <label for="zip">Zip Code</label>
-                            <input type="text" id="zip" name="zip">
-                        </span>
-                    </p>
-                    <p>
-                        <label for="country">Country</label>
-                    <p></p>
-                    <select class="dropdown" id="country" name="country">
-                        <option value="canada">Canada</option>
-                        <option value="us">United States</option>
-                    </select>
-                    </p>
-            </section>
-            <section>
-                <h2>Payment Info</h1>
-                    <p>
-                        <label for="cardholdername">Cardholder's Name</label>
-                        <input type="text" id="cardholdername" name="cardholdername">
-                    </p>
-                    <p>
-                        <label for="cardnumber">Card Number</label>
-                        <input type="text" id="cardnumber" name="cardnumber">
-                    </p>
-                    <p class="form-duo-row">
-                        <span>
-                            <label for="cardexpmonth">Exp. Month</label>
-                            <input type="text" id="cardexpmonth" name="cardexpmonth">
-                        </span>
-                        <span>
-                            <label for="cardexpyear">Exp. Year</label>
-                            <input type="text" id="cardexpyear" name="cardexpyear">
-                        </span>
-                    </p>
-                    <p>
-                        <label for="cardcvc">CVC</label>
-                        <input type="text" id="cardcvc" name="cardcvc">
-                    </p>
-            </section>
-        </form>
-        <section class="px checkout-confirm">
-            <button class="dark-btn btn" onclick="error()">Confirm Payment</a>
-        </section>
+
     </main>
-    <script>
-        function error() {
-            alert("Payment verification failed");
-        }
-    </script>
 
     <!-- footer -->
     <footer>

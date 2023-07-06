@@ -136,8 +136,9 @@ h1 {
 }
 
 .btn:hover {
-    background-color: var(--dark-green);
-    color: var(--light-beige);
+    background-color: var(--light-green);
+    color: var(--dark-green);
+    border: 1px solid var(--light-green);
 }
 
 .dark-btn {

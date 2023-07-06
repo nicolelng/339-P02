@@ -20,7 +20,20 @@
 
 }
 
+textarea{
+    padding:1rem;
+}
+
 #contactMessage{
     width: 45%;
     height: 10rem;
+}
+
+.contactForm section p.form-duo-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thanks-message{
+    text-align: center;
 }
