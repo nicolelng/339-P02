@@ -94,7 +94,7 @@
     <!-- main content -->
     <main>
         <div class="spacer-top"></div>
-        
+
         <section class="px margin-bottom">
             <h1>Checkout</h1>
         </section>
@@ -122,11 +122,11 @@
                     </p>
                     <p>
                         <label for="country">Country</label>
-                        <p></p>
-                        <select class="dropdown" id="country" name="country">
-                            <option value="canada">Canada</option>
-                            <option value="us">United States</option>
-                        </select>
+                    <p></p>
+                    <select class="dropdown" id="country" name="country">
+                        <option value="canada">Canada</option>
+                        <option value="us">United States</option>
+                    </select>
                     </p>
             </section>
             <section>
@@ -156,9 +156,14 @@
             </section>
         </form>
         <section class="px checkout-confirm">
-            <a href="index.html" class="btn">Confirm Payment</a>
+            <button class="btn" onclick="error()">Confirm Payment</a>
         </section>
     </main>
+    <script>
+        function error() {
+            alert("Payment verification failed");
+        }
+    </script>
 
     <!-- footer -->
     <footer>
