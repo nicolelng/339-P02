@@ -217,6 +217,10 @@ header {
 .video-player{
     margin-bottom: 1em;
 }
+
+.back-button{
+    margin-left: 1rem;
+}
 /* promotion window
 .promotion-overlay {
     display: none;
