@@ -155,7 +155,7 @@
         margin-left: 3vw;
     }
 
-    .product-container .product-info .product-title-wrapper {
+    .product-container .product-info .product-title-wrapper  {
         display: flex;
         justify-content: space-between;
         align-items: center;
