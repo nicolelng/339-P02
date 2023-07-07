@@ -213,6 +213,10 @@ header {
     text-align: center;
     padding-bottom: 5rem;
 }
+
+.video-player{
+    margin-bottom: 1em;
+}
 /* promotion window
 .promotion-overlay {
     display: none;
@@ -342,6 +346,8 @@ nav {
     display: flex;
     align-items: center;
 }
+
+
 
 .nav-links {
     display: none;

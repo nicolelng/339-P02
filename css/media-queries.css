@@ -126,7 +126,7 @@
     }
 
     main section p.small-para {
-        width: 50%;
+        max-width: 65rem;
     }
 
     /* home */
@@ -341,7 +341,7 @@
 
     /* main */
     main section p.small-para {
-        width: 35%;
+        width: 75%;
     }
 
     main section {
