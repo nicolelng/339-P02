@@ -214,6 +214,23 @@ header {
     padding-bottom: 5rem;
 }
 
+.display-buttons{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.other-btn{
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width:800px) {
+    .other-btn{
+        flex-direction: column;
+    }
+}
+
 .video-player{
     margin-bottom: 1em;
 }
