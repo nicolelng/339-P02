@@ -141,9 +141,14 @@
     }
 
     /* product details */
+    .back-button {
+        margin-left: var(--margin-laptop);
+    }
+
     .product-container {
         display: flex;
         padding: var(--margin-laptop);
+        margin-top: 3vh;
     }
 
     .product-container img {
@@ -357,6 +362,10 @@
     }
 
     /* faq */
+    .faq {
+        width: 70%;
+        margin: 5vh auto 5vh auto;
+    }
 
     .faq-split {
         display: flex;
@@ -401,8 +410,13 @@
     }
 
     /* product details */
+    .back-button {
+        margin-left: var(--margin-desktop);
+    }
+
     .product-container {
         padding: var(--margin-desktop);
+        margin-top: 2vh;
     }
 
     .product-container img {
