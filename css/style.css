@@ -523,4 +523,7 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+.footer-link + .footer-link {
+    margin-left: 1em;
+}
 
