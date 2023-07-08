@@ -1,5 +1,9 @@
-.faq-qa {
-    max-width: 60rem;
+.faq {
+    margin-bottom: 5vh;
+}
+
+.faq h1 {
+   margin: 1rem var(--margin-mobile);
 }
 
 .last-FAQ-message {
