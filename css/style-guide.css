@@ -1,13 +1,13 @@
-main.style-guide > section {
+main.style-guide>section {
     margin-top: 0;
     margin-bottom: 5vh;
 }
 
-main.style-guide > section:first-of-type {
+main.style-guide>section:first-of-type {
     margin-top: 5vh;
 }
 
-main.style-guide section > h2 {
+main.style-guide section>h2 {
     margin-bottom: 2vh;
     font-size: 1.25rem;
 }

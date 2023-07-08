@@ -10,7 +10,7 @@
 }
 
 
-.contactForm input[type=text]{
+.contactForm input[type=text] {
     border-radius: 5px;
     padding: 1rem;
     border: 1px solid var(--light-green);
@@ -32,7 +32,8 @@ textarea {
     border: 1px solid var(--light-green);
 }
 
-textarea:focus, textarea:active {
+textarea:focus,
+textarea:active {
     outline: none;
     border: 1px solid var(--dark-green);
 }
@@ -52,7 +53,7 @@ textarea:focus, textarea:active {
     text-align: left;
     display: flex;
     flex-direction: column;
-    margin-bottom: 1vh; 
+    margin-bottom: 1vh;
 }
 
 .thanks-message {

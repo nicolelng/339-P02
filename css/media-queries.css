@@ -160,7 +160,7 @@
         margin-left: 3vw;
     }
 
-    .product-container .product-info .product-title-wrapper  {
+    .product-container .product-info .product-title-wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -378,7 +378,7 @@
     .faq-content {
         width: 50%;
     }
-    
+
     .accordion {
         font-size: 1.6rem;
     }
@@ -388,7 +388,7 @@
         display: flex;
         justify-content: flex-end;
     }
-    
+
     .faq-message p {
         width: 50%;
         line-height: 1.4;
@@ -459,7 +459,7 @@
         font-size: 1.75rem;
     }
 
-    .newsletter-sub input[type=text]{
+    .newsletter-sub input[type=text] {
         width: 25%;
     }
 

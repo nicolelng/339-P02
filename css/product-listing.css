@@ -33,7 +33,7 @@
     transform: scale(1.1);
 }
 
-.product-container:hover .middle{
+.product-container:hover .middle {
     opacity: 1;
 }
 
