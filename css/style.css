@@ -99,6 +99,11 @@ h1 {
     padding-right: var(--margin-mobile);
 }
 
+.px-none {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
 .spacer-top {
     height: 13vh;
 }
@@ -227,8 +232,8 @@ header {
     margin-bottom: 1em;
 }
 
-.back-button{
-    margin-left: 1rem;
+.back-button {
+    margin-left: var(--margin-mobile);
 }
 
 

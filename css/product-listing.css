@@ -61,6 +61,10 @@
 }
 
 /* product detail page */
+.product-container {
+    margin-top: 5vh;
+}
+
 .product-container img {
     width: 100%;
     height: 45vh;
