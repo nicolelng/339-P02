@@ -193,20 +193,12 @@ header {
     border: 1px solid var(--dark-green);
 }
 
-.company-page {
-    max-width: 70rem;
-}
-
 .event-details{
     margin-bottom: 0;
 }
 
 .event-address{
     font-style: italic;
-}
-
-.event-address:hover {
-    text-decoration: underline;
 }
 
 .while-here{
